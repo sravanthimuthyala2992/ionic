@@ -1,0 +1,12 @@
+Test case Doc id,Test Scenario,Test Description ,Test No,Test Cases,Expected Result,Actual Result,Comments
+"TLS-1, FAN DIMMER ",TOGGLE button - validate the fan dimmer functionality via toggle button on dash board suitcase,verify the TOGGLE button,1,Turn on the Toggle button,the toggle button turn into BLUE color and the fan turns ON .,,
+,,,1.1,turn off the Toggle button,The toggle button returns to white color and the fan turn OFF ,,
+,validating the FAN SPEED (operating the fan at various speed levels via upward/downward arrows)  ,verifying the fan SPEED and LEVEL column,2,"Increase the speed (1,2,3,4,5) at the time when fan is ON",The speed of the fan should be increased and the SPEED LEVEL column should represent the increased number.,,
+,,,2.1,"Decrease the speed (5,4,3,2,1) at the time when fan is ON ",The speed of the fan should be decreased and the speed level column should represent the decreased number.,,
+TEST CASES FOR MANUAL OPERATION OF FAN DIMMER,,,,,,,
+,,,,,,,
+TLS -2  FAN DIMMER - Physical parts,"validating the L.E.D - wi-fi connection , DIGITAL DISPLAY panel via increasing and decreasing speed",verifying the WI-FI connection,3,Give the WI-FI connection to fan dimmer,The L.E.D bulb starts glowing in BLUE color.,,
+,,"verifying the fan speed levels , on/off status",4,Turn ON the fan by increasing the fan speed to LEVEL 1 via upward arrow.,you would observe the speed number as 1 in digital display panel. (indicating the fan is turned ON .),,
+,,,4.1,"Increase the fan speed (2,3,4,5) via upward arrow","The speed of the fan increases with number(2,3,4,5) and the digital display shows its respective number of speed level ",,
+,,,4.2,"Decrease the fan speed (5,4,3,2,1) via downward arrow","The speed of the fan decreases with number (5 , 4, 3, 2,1) and the digital display shows its respective number of speed level ",,
+,,,4.3,Turn OFF the fan by decreasing the speed level from 1 to 0 via downward arrow.,The fan turns OFF and the digital display show seven segmented  number ZERO.,,
